@@ -5,25 +5,25 @@
     font-size: 50px;
     text-align: center;
     overflow: hidden; /* Can't see words before they're typed */
-    border-right: .15em solid #E8AA42; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Scrolling effect */ 
-    letter-spacing: .15em; /* Adjust as needed */
+    border-right: .15em solid #025464; /* The typwriter cursor */
+    white-space: nowrap; 
+    margin: 0 auto; /* Scrolling */ 
+    letter-spacing: .15em; 
     animation: 
       typing 3.5s steps(40, end),
       blink-caret .75s step-end infinite;
   }
   
-  /* The typing effect */
+  /* typing effect */
   @keyframes typing {
     from { width: 0 }
     to { width: 100% }
   }
   
-  /* The typewriter cursor effect */
+  /* cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: orange; }
+    50% { border-color: #025464; }
   
   }
 
@@ -31,6 +31,25 @@
   .subheading h4 {
     text-align: center;
     font-family: 'Chivo Mono', Calibri;
+  }
+
+
+  .subsubheading h2 {
+    text-align: center;
+    font-family: 'Chivo Mono', Calibri;
+  }
+
+
+  h2 {
+    text-align: center;
+    font-family: 'Chivo Mono', Calibri;
+  }
+
+
+
+  p {
+    text-align: center;
+    font-family: Calibri;
   }
 
 
