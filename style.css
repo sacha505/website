@@ -17,7 +17,7 @@
   /* typing effect */
   @keyframes typing {
     from { width: 0 }
-    to { width: 100% }
+    to { width: 40% }
   }
   
   /* cursor effect */
@@ -53,4 +53,25 @@
   }
 
 
-  
+
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(255, 255, 255) rgb(144, 146, 172);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 100px;
+}
+
+*::-webkit-scrollbar-track {
+  background: white;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(144, 146, 172);
+  border-radius: 60px;
+  border: 3px solid rgb(255, 255, 255);
+}
