@@ -1,17 +1,22 @@
 .h1type h1 {
     font-family: 'Chivo Mono', Calibri;
-    position: sticky; /* I want this heading to stick at the top of the page for a bit while you scroll down */
     top: 10px;
     font-size: 50px;
     text-align: center;
     overflow: hidden; /* Can't see words before they're typed */
-    border-right: .15em solid #ff7300; /* The typwriter cursor */
+    border-right: .15em solid #CD6688; /* The typwriter cursor */
     white-space: nowrap; 
     margin: 0 auto; /* Scrolling */ 
     letter-spacing: .15em; 
+    
+
+   
     animation: 
       typing 3.5s steps(40, end),
       blink-caret .75s step-end infinite;
+      
+    
+        
   }
   
   /* typing effect */
@@ -23,7 +28,7 @@
   /* cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: #ff7300; }
+    50% { border-color: #CD6688; }
   
   }
   
@@ -44,7 +49,13 @@
 
   p {
     text-align: center;
+    font-size: 25px;
     font-family: Calibri;
+    padding-top: 50px;
+    padding-right: 500px;
+    padding-bottom: 50px;
+    padding-left: 500px;
+   
   }
 
 
@@ -93,7 +104,7 @@ html, body {
 .wrapper {
   box-sizing: border-box;
   min-height: 100%;
-  display: flex;
+  display: fixed;
   flex-direction: column;
 }
 .page-header, .page-footer {
