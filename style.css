@@ -1,6 +1,16 @@
-.h1type h1 {
+.transparent{
+  background-color: transparent;
+}
+
+
+/* GENERAL STYLE + TYPING EFFECT */
+
+h1 {
     font-family: 'Chivo Mono', Calibri;
     top: 10px;
+   
+    
+
     font-size: 50px;
     text-align: center;
     overflow: hidden; /* Can't see words before they're typed */
@@ -8,15 +18,11 @@
     white-space: nowrap; 
     margin: 0 auto; /* Scrolling */ 
     letter-spacing: .15em; 
-    
-
-   
+ 
     animation: 
       typing 3.5s steps(40, end),
       blink-caret .75s step-end infinite;
-      
-    
-        
+              
   }
   
   /* typing effect */
@@ -32,6 +38,8 @@
   
   }
   
+/* GENERAL STYLE */
+
   .subheading h4 {
     text-align: center;
     font-family: 'Chivo Mono', Calibri;
@@ -45,6 +53,7 @@
   h2 {
     text-align: center;
     font-family: 'Chivo Mono', Calibri;
+    background-color: transparent;
   }
 
   p {
@@ -57,6 +66,10 @@
     padding-left: 500px;
    
   }
+
+/* ----------------------------------- */
+
+/* SCROLLBAR CONFIG */
 
 
 /* Works on Firefox */
@@ -80,18 +93,13 @@
   border: 3px solid rgb(255, 255, 255);
 }
 
+/* ----------------------------------- */
+
+/* PARALAX STUFF */
+
 .parallax-window {
   min-height: 400px;
   background: transparent;
-}
-
-
- footer {
-  font-family: Calibri;
-  position: relative;
-  display: flex;
-  align-items: center;
-  min-height: 10vh;
 }
 
 
@@ -100,7 +108,11 @@ html, body {
   height: 100%;
   padding: 0;
   margin: 0;
+  background: transparent;
 }
+
+/* ----------------------------------- */
+
 .wrapper {
   box-sizing: border-box;
   min-height: 100%;
@@ -114,3 +126,27 @@ html, body {
 .page-body {
   flex-grow: 1;
 }
+
+/* ----------------------------------- */
+
+/* FADE IN AND OUT ANIMATION CSS */
+
+
+
+
+/* ----------------------------------- */
+
+/* FOOTER INFO */
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #7A316F;
+  color: white;
+  text-align: left;
+  font-family: Calibri;
+  min-height: 10vh;
+}
+
+/* ----------------------------------- */
