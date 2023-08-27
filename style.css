@@ -142,11 +142,11 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #7A316F;
+  background-color: rgb(174, 216, 204);
   color: white;
   text-align: left;
   font-family: Calibri;
-  min-height: 10vh;
+  min-height: 2vh;
 }
 
 /* ----------------------------------- */
