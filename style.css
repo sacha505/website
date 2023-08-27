@@ -7,12 +7,15 @@
 
 h1 {
     font-family: 'Chivo Mono', Calibri;
-    top: 10px;
+    top: 100px;
    
-    
+    position: relative;
+    left: 40px;
 
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
+    color: aliceblue;
+    background-color: transparent;
     overflow: hidden; /* Can't see words before they're typed */
     border-right: .15em solid #CD6688; /* The typwriter cursor */
     white-space: nowrap; 
@@ -57,6 +60,7 @@ h1 {
   }
 
   p {
+    background-color: transparent;
     text-align: center;
     font-size: 25px;
     font-family: Calibri;
@@ -97,13 +101,16 @@ h1 {
 
 /* PARALAX STUFF */
 
+
 .parallax-window {
   min-height: 400px;
   background: transparent;
+  background-color: transparent;
 }
 
 
 html, body {
+  background-color: transparent;
   box-sizing: border-box;
   height: 100%;
   padding: 0;
@@ -114,6 +121,7 @@ html, body {
 /* ----------------------------------- */
 
 .wrapper {
+  background-color: transparent;
   box-sizing: border-box;
   min-height: 100%;
   display: fixed;
@@ -122,9 +130,11 @@ html, body {
 .page-header, .page-footer {
   flex-grow: 0;
   flex-shrink: 0;
+  background-color: transparent;
 }
 .page-body {
   flex-grow: 1;
+  background-color: transparent;
 }
 
 /* ----------------------------------- */
@@ -143,7 +153,7 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: rgb(174, 216, 204);
-  color: white;
+  color: white; 
   text-align: left;
   font-family: Calibri;
   min-height: 2vh;
